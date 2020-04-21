@@ -15,4 +15,4 @@ class Config(object):
     ADMINS = ['test.prof2203@gmail.com']
     LANGUAGES = ['en', 'es']
     POSTS_PER_PAGE = 3
-    MS_TRANSLATOR_KEY = 'd87963830b1a4a4cb633329010daf5d7'
+    MS_TRANSLATOR_KEY = 'YOUR_KEY_HERE'
