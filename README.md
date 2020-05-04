@@ -4,7 +4,10 @@ This is a microblogging web application developed in python and Flask. With this
 
 ## Getting started
 
-To run this project, download the repository and with the help of flask run command, run the main file "microblog.py".
+To run this project, download the repository and create your own virtual environment if possible for this project, then run the environment and go the project location and 
+1. With the help of pip command, run "pip install -r requirements.txt"
+2. Then run "set FLASK_APP=microblog.py"
+3. Then run the command "flask run"
 
 ## Acknowledgments
 
