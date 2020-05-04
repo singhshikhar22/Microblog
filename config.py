@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
+
 basedir = os.path.abspath(os.path.dirname(__file__))
+load_dotenv(os.path.join(basedir, '.env'))
 
 
 class Config(object):
@@ -12,7 +15,7 @@ class Config(object):
     MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
-    ADMINS = ['test.prof2203@gmail.com']
+    ADMINS = ['your-email@example.com']
     LANGUAGES = ['en', 'es']
-    POSTS_PER_PAGE = 3
-    MS_TRANSLATOR_KEY = 'YOUR_KEY_HERE'
+    MS_TRANSLATOR_KEY = 'd87963830b1a4a4cb633329010daf5d7'
+    POSTS_PER_PAGE = 7
